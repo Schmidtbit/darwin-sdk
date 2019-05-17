@@ -9,7 +9,11 @@ import zipfile
 import io
 import pandas as pd
 from requests_toolbelt.multipart import encoder
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from requests.packages import urllib3
+from requests.exceptions import SSLError
 from amb_sdk.config import Config as cfg
+from .version import __version__
 
 
 class DarwinSdk:
@@ -68,10 +72,14 @@ class DarwinSdk:
               'run_model': 'run/model/',
               'set_url': '',
               'get_url': '',
+              'get_sdk_version': '',
               'delete_all_datasets': '',
               'delete_all_models': '',
               'delete_all_artifacts': '',
-              'wait_for_job': ''}
+              'wait_for_job': '',
+              'enable_ssl_cert_check': '',
+              'disable_ssl_cert_check': ''
+    }
 
     # Set URL
     def set_url(self, url, version='v1'):
@@ -85,6 +93,9 @@ class DarwinSdk:
     def get_url(self):
         return True, self.server_url
 
+    def get_sdk_version(self):
+        return True, __version__
+
     # Authentication and Registration
     def auth_login(self, password, api_key):
         self.username = ''
@@ -92,8 +103,10 @@ class DarwinSdk:
         self.password = password
         url = self.server_url + self.routes['auth_login']
         payload = {'api_key': str(api_key), 'pass1': str(password)}
+        ret = self.get_info()  # Check SSL certificate
+        if not ret[0]:
+            return ret
         r = self.s.post(url, data=payload)
-        # r = self.s.post(url, data=payload, verify=False)
         if r.ok:
             self.auth_string = 'Bearer ' + r.json()['access_token']
             self.token_start_time = time.time()
@@ -106,8 +119,10 @@ class DarwinSdk:
         self.password = password
         url = self.server_url + self.routes['auth_login_user']
         payload = {'username': str(username), 'pass1': str(password)}
+        ret = self.get_info()  # Check SSL certificate
+        if not ret[0]:
+            return ret
         r = self.s.post(url, data=payload)
-        # r = self.s.post(url, data=payload, verify=False)
         if r.ok:
             self.auth_string = 'Bearer ' + r.json()['access_token']
             self.token_start_time = time.time()
@@ -326,7 +341,11 @@ class DarwinSdk:
 
     def get_info(self):
         url = self.server_url + self.routes['get_info']
-        r = self.s.get(url)
+        try:
+            r = self.s.get(url)
+        except SSLError:
+            print("SSL certificate check failed. You can disable cerificate check by calling disable_ssl_cert_check")
+            return False, "SSLError"
         return self.get_return_info(r)
 
     # Train a model
@@ -528,12 +547,21 @@ class DarwinSdk:
         (code, response) = self.lookup_artifact_name(artifact_name)
         if code is True:  # artifact dataset
             artifact_type = response['type']
+            payload = {'file_part': file_part}
             url = self.server_url + self.routes['download_dataset'] + urllib.parse.quote(artifact_name, safe='')
-            r = self.s.get(url, headers=headers)
+            r = self.s.get(url, headers=headers, data=payload)
             (code, response) = self.get_return_info(r)
             if code is True:
                 artifact = response['dataset']
-                if artifact_type in ['CleanData', 'CleanDataTiny']:
+                if artifact_type == 'CleanData':
+                    part = response['part']
+                    note = response['note']
+                    file_prefix = dataset_name + '-cleaned-' + 'part-' + str(part) + '-'
+                    response = self._write_to_file(artifact_path, '.csv', artifact, prefix=file_prefix)
+                    response[1]['part'] = part
+                    response[1]['note'] = note
+                    return response
+                elif artifact_type == 'CleanDataTiny':
                     file_prefix = dataset_name + '-cleaned-'
                     return self._write_to_file(artifact_path, '.csv', artifact, prefix=file_prefix)
             return False, "Unknown dataset artifact type"
@@ -614,12 +642,14 @@ class DarwinSdk:
         return self.get_return_info(r)
 
     # Analyze sample-wise feature importances
-    def analyze_predictions(self, model_name, dataset_name, job_name=None, artifact_name=None, model_type=None):
+    def analyze_predictions(self, model_name, dataset_name, job_name=None, artifact_name=None, model_type=None,
+                            start_index=None, end_index=None):
         url = self.server_url + self.routes['analyze_predictions'] + str(model_name) + '/' + dataset_name
         headers = self.get_auth_header()
         if headers is None:
             return False, "Cannot get Auth token. Please log in."
-        payload = {'job_name': job_name, 'artifact_name': artifact_name, 'model_type': model_type}
+        payload = {'job_name': job_name, 'artifact_name': artifact_name, 'model_type': model_type,
+                   'start_index': start_index, 'end_index': end_index}
         r = self.s.post(url, headers=headers, data=payload)
         return self.get_return_info(r)
 
@@ -737,6 +767,15 @@ class DarwinSdk:
         url = self.server_url + self.routes['display_population'].format(model_name)
         r = self.s.get(url, headers=headers)
         return self.get_return_info(r)
+
+    def enable_ssl_cert_check(self):
+        requests.session().close()
+        self.s = requests.Session()
+        self.s.verify = True
+
+    def disable_ssl_cert_check(self):
+        urllib3.disable_warnings(InsecureRequestWarning)
+        self.s.verify = False
 
     def _validate_artifact_file_path(self, artifact_path):
 
