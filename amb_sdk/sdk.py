@@ -7,6 +7,7 @@ import validators
 import json
 import zipfile
 import io
+import ast
 import pandas as pd
 from requests_toolbelt.multipart import encoder
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
@@ -344,7 +345,7 @@ class DarwinSdk:
         try:
             r = self.s.get(url)
         except SSLError:
-            print("SSL certificate check failed. You can disable cerificate check by calling disable_ssl_cert_check")
+            print("SSL certificate check failed. You can disable cerificate check by calling verify_ssl_certificate")
             return False, "SSLError"
         return self.get_return_info(r)
 
@@ -415,7 +416,7 @@ class DarwinSdk:
         r = self.s.delete(url, headers=headers)
         return self.get_return_info(r)
 
-    # Upload or delete a generated artifact
+    # Download a generated artifact
     def download_artifact(self, artifact_name, artifact_path=None):
         headers = self.get_auth_header()
         if headers is None:
@@ -434,49 +435,39 @@ class DarwinSdk:
 
         r = self.s.get(url, headers=headers)
         (code, response) = self.get_return_info(r)
+
         if code is True:
-            artifact = response['artifact']
+            if artifact_type in ('AnalyzeData'):
+                data = ast.literal_eval(response['artifact'])
+                profile = pd.DataFrame.from_dict(data['data'])
+                profile = profile.set_index('name')
+                return True, profile
+            if artifact_type in ('FitData', 'CleanData'):
+                fit_profile = ast.literal_eval(response['artifact'])
+                fit_profile['data']['raw_profile'] = pd.DataFrame.from_dict(fit_profile['data']['raw_profile'])
+                fit_profile['data']['raw_profile'] = fit_profile['data']['raw_profile'].set_index('name')
+                fit_profile['data']['clean_profile'] = pd.DataFrame.from_dict(fit_profile['data']['clean_profile'])
+                fit_profile['data']['clean_profile'] = fit_profile['data']['clean_profile'].set_index('name')
+                return True, fit_profile
             if artifact_type == 'Model':
-                if artifact[1:4] == 'PNG':
-                    return self._write_to_file(artifact_path, '.png', artifact)
-                else:
-                    data = json.loads(artifact)
-                    if 'global_feat_imp' in data:
-                        df = pd.Series(data['global_feat_imp']).sort_values(ascending=False)
-                    elif 'local_feat_imp' in data:
-                        df = pd.DataFrame(data['local_feat_imp'])
-                        df.index = df.index.astype(int)
-                        df = df.sort_index()
-                    else:
-                        return False, "Unknown artifact format for model"
-                    return True, df
-            if artifact_type == 'Test':
                 data = json.loads(response['artifact'])
-                if 'index' in data:
-                    if len(data["index"]) == len(data['actual']):
-                        df = pd.DataFrame({'index': data['index'], 'actual': data['actual'],
-                                           'predicted': data['predicted']})
-                    else:
-                        df = pd.DataFrame({'actual': data['actual'], 'predicted': data['predicted']})
-                    return True, df
-                elif 'x' in data:
-                    if len(data["x"]) == len(data['actual']):
-                        df = pd.DataFrame({'index': data['x'], 'actual': data['actual'],
-                                           'predicted': data['predicted']})
-                    else:
-                        df = pd.DataFrame({'actual': data['actual'], 'predicted': data['predicted']})
-                    return True, df
+                if 'global_feat_imp' in data:
+                    df = pd.Series(data['global_feat_imp']).sort_values(ascending=False)
+                elif 'local_feat_imp' in data:
+                    df = pd.DataFrame(data['local_feat_imp'])
+                    df.index = df.index.astype(int)
+                    df = df.sort_index()
                 else:
-                    return False, "Cannot interpret Test artifact"
+                    return False, "Unknown artifact format for model"
+                return True, df
             if artifact_type == 'Risk':
-                return self._write_to_file(artifact_path, '.csv', artifact)
-
+                return self._write_to_file(artifact_path, '.csv', response['artifact'])
             if artifact_type == 'Run':
-                if 'png' in artifact[0:100]:
-                    return self._write_to_file(artifact_path, '.zip', artifact)
+                if 'png' in response['artifact'][0:100]:
+                    return self._write_to_file(artifact_path, '.zip', response['artifact'])
 
-                if 'anomaly' in artifact[0:50]:
-                    return self._write_to_file(artifact_path, '.csv', artifact)
+                if 'anomaly' in response['artifact'][0:50]:
+                    return self._write_to_file(artifact_path, '.csv', response['artifact'])
 
                 if DarwinSdk.is_json(response['artifact']):
                     data = json.loads(response['artifact'])
@@ -504,31 +495,8 @@ class DarwinSdk:
                     if DarwinSdk.is_number(df[col_name][0]):
                         df[col_name] = pd.to_numeric(df[col_name], errors='coerce')
                     return True, df
-            if artifact_type in ['Dataset', 'CleanDataTiny']:
-                data = json.loads(response['artifact'])
-                df = pd.DataFrame(data=data[0], index=[0])
-                for x in range(1, len(data)):
-                    df = df.append(data[x], ignore_index=True)
-                return True, df
-            if self._is_local() and artifact_type in ('AnalyzeData'):
-                # for onprem, we have to intepret artifact differently
-                data = json.loads(response['artifact'])
-                df = pd.DataFrame(data=data[0], index=[0])
-                for x in range(1, len(data)):
-                    df = df.append(data[x], ignore_index=True)
-                return True, df
-            if artifact_type in ['AnalyzeData', 'CleanData']:
-                buf = '[' + response['artifact'] + ']'
-                buf = buf.replace('}', '},').replace('\n', '').replace(',]', ']')
-                data = json.loads(buf)
-                df = pd.DataFrame(data=data[0], index=[0])
-                for x in range(1, len(data)):
-                    df = df.append(data[x], ignore_index=True)
-                return True, df
-            if artifact_type in ['CleanDataTiny']:
-                df = pd.read_csv(io.StringIO(response['artifact']), sep=",")
-                return True, df
-            return False, "Unknown artifact type"
+
+            return False, "Unsupported artifact type: {}".format(artifact_type)
         else:
             return False, response
 
@@ -553,11 +521,11 @@ class DarwinSdk:
             (code, response) = self.get_return_info(r)
             if code is True:
                 artifact = response['dataset']
-                if artifact_type == 'CleanData':
+                if artifact_type in ('CleanData', 'FitData'):
                     part = response['part']
                     note = response['note']
                     file_prefix = dataset_name + '-cleaned-' + 'part-' + str(part) + '-'
-                    response = self._write_to_file(artifact_path, '.csv', artifact, prefix=file_prefix)
+                    response = self._write_to_file(artifact_path, '.parquet', artifact, prefix=file_prefix)
                     response[1]['part'] = part
                     response[1]['note'] = note
                     return response
@@ -661,6 +629,13 @@ class DarwinSdk:
         if headers is None:
             return False, "Cannot get Auth token. Please log in."
         r = self.s.post(url, headers=headers, json=parameters)
+        if not r.ok and 'Please run analyze data' in r.text:
+            print("Raw profile not found. Running analyze_data")
+            r = self.analyze_data(dataset_name)
+            if r[0]:
+                r = self.s.post(url, headers=headers, json=parameters)
+            else:
+                return r
         return self.get_return_info(r)
 
     # Create risk information for a datatset

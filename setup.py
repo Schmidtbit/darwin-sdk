@@ -20,7 +20,7 @@ setup(
     author_email='scheng@sparkcognition.com',
     install_requires=[
         'validators==0.12.4',
-        'urllib3==1.24.1',
+        'urllib3==1.24.3',
         'pandas==0.24.2',
         'requests_toolbelt==0.9.1',
         'requests==2.21.0',
