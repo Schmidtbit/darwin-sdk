@@ -1,0 +1,782 @@
+Modified On,Work Order Name,Component,Department,Modified By,Work Order Status,Type
+20-Mar-17,150 Hours,RIG HPU,Mechanical,Kyle Maynard,Closed,PM
+20-Mar-17,2000 Hours,AIR COMPRESSOR : 127210,Mechanical,User1 User1,Due,PM
+21-Mar-17,Annually,MUD PUMP 1 : 127275,Mechanical,,Rejected,PM
+21-Mar-17,Semi Annualy,MUD PUMP 1 : 127275,Mechanical,,Rejected,PM
+21-Mar-17,Annually,MUD PUMP 2 : 127279,Mechanical,,Rejected,PM
+21-Mar-17,Semi Annualy,MUD PUMP 2 : 127279,Mechanical,,Rejected,PM
+22-Mar-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,HPU GEARBOX 1,Mechanical,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,HPU GEARBOX 2,Mechanical,User1 User1,Due,PM
+22-Mar-17,1000 Hours,ENGINE GEN 3 : 127213,Operations,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Leonel Munoz,Closed,PM
+22-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Kyle Maynard,Closed,PM
+22-Mar-17,1000 Hours,ENGINE GEN 4 : 127214,Operations,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Kyle Maynard,Closed,PM
+22-Mar-17,7 Operating Days,HPU GEARBOX 2,Mechanical,User1 User1,Expired,PM
+22-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+22-Mar-17,1000 Hours,ENGINE GEN 3 : 127213,Operations,User1 User1,Due,PM
+22-Mar-17,7 Operating Days,HPU GEARBOX 1,Mechanical,User1 User1,Due,PM
+22-Mar-17,1000 Hours,ENGINE GEN 4 : 127214,Operations,User1 User1,Due,PM
+22-Mar-17,None,TOP DRIV,MECHANICAL ,,Closed,CM
+22-Mar-17,None,(not equ,RIG PERFORMANCE,,Closed,CM
+24-Mar-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+25-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Kyle Maynard,Closed,PM
+25-Mar-17,Annually,INDICATOR MUD PUMP 1 PRESSURE,Drilling,Kyle Maynard,Closed,PM
+25-Mar-17,500 Hours,AIR COMPRESSOR : 127210,Operations,Kyle Maynard,Closed,PM
+25-Mar-17,Annually,INDICATOR MUD PUMP 2 PRESSURE,Drilling,Kyle Maynard,Closed,PM
+25-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Kyle Maynard,Closed,PM
+25-Mar-17,None,CATWALK,MECHANICAL ,,Closed,CM
+25-Mar-17,None,PIPE HAN,ELECTRICAL ,,Closed,CM
+26-Mar-17,None,RIG CONT,ELECTRICAL ,,Closed,CM
+26-Mar-17,None,ROTARY S,DRILLING ,,Closed,CM
+27-Mar-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+28-Mar-17,None,RIG CONT,ELECTRICAL ,,Closed,CM
+29-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+29-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+29-Mar-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+30-Mar-17,7 Operating Days,TOP DRIVE : 127169,Operations,Kyle Maynard,Closed,PM
+31-Mar-17,200 Hours,GENERATOR 1 : 127218,Electrical,David Ellerd,Closed,PM
+31-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Larry Bartlett,Closed,PM
+31-Mar-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Larry Bartlett,Closed,PM
+31-Mar-17,200 Hours,GENERATOR 4 : 127221,Electrical,David Ellerd,Closed,PM
+31-Mar-17,200 Hours,GENERATOR 3 : 127220,Electrical,David Ellerd,Closed,PM
+31-Mar-17,200 Hours,GENERATOR 2 : 127219,Electrical,David Ellerd,Closed,PM
+31-Mar-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+1-Apr-17,200 Hours,GENERATOR 4 : 127221,Electrical,David Ellerd,Closed,PM
+1-Apr-17,365 Calendar Days,ACCUMULATOR : 127197,Mechanical,Larry Bartlett,Due,PM
+1-Apr-17,365 Calendar Days,ACCUMULATOR : 127197,Mechanical,,Rejected,PM
+1-Apr-17,200 Hours,GENERATOR 1 : 127218,Electrical,David Ellerd,Closed,PM
+1-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,Larry Bartlett,Closed,PM
+1-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Larry Bartlett,Closed,PM
+1-Apr-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,User1 User1,Expired,PM
+1-Apr-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,User1 User1,Due,PM
+1-Apr-17,7 Operating Days,CATWALK : 127208,Drilling,Larry Bartlett,Closed,PM
+1-Apr-17,200 Hours,GENERATOR 3 : 127220,Electrical,David Ellerd,Closed,PM
+1-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,Larry Bartlett,Due,PM
+1-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,Larry Bartlett,Due,PM
+1-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,Larry Bartlett,Closed,PM
+1-Apr-17,200 Hours,GENERATOR 2 : 127219,Electrical,David Ellerd,Closed,PM
+1-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,Larry Bartlett,Due,PM
+1-Apr-17,None,(not equ,SOFTWARE ,,Closed,CM
+3-Apr-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,Larry Bartlett,Open,PM
+3-Apr-17,7 Operating Days,HPU GEARBOX 2,Mechanical,,Rejected,PM
+3-Apr-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,Larry Bartlett,Due,PM
+3-Apr-17,7 Operating Days,HPU GEARBOX 1,Mechanical,,Rejected,PM
+3-Apr-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,Larry Bartlett,Due,PM
+3-Apr-17,365 Calendar Days,AIR COMPRESSOR : 127210,Mechanical,,Rejected,PM
+3-Apr-17,2000 Hours,AIR COMPRESSOR : 127210,Mechanical,Larry Bartlett,Due,PM
+3-Apr-17,Semi Annualy,HP MUD HOSE KELLY : 127176,Drilling,Larry Bartlett,Closed,PM
+3-Apr-17,2000 Hours,AIR COMPRESSOR : 127210,Mechanical,Larry Bartlett,Closed,PM
+3-Apr-17,7 Operating Days,HPU GEARBOX 1,Mechanical,Larry Bartlett,Due,PM
+3-Apr-17,7 Operating Days,MAST : 127166,Operations,Larry Bartlett,Closed,PM
+3-Apr-17,365 Calendar Days,ACCUMULATOR : 127197,Mechanical,,Rejected,PM
+3-Apr-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,,Rejected,PM
+4-Apr-17,Semi Annualy,HP MUD HOSE KELLY : 127176,Drilling,User1 User1,Expired,PM
+5-Apr-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,,Rejected,PM
+5-Apr-17,150 Hours,RIG HPU,Mechanical,Larry Bartlett,Closed,PM
+5-Apr-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+5-Apr-17,7 Operating Days,MAST : 127166,Operations,Larry Bartlett,Closed,PM
+5-Apr-17,2000 Hours,RIG HPU,Mechanical,,Rejected,PM
+5-Apr-17,365 Calendar Days,ACCUMULATOR : 127197,Mechanical,,Rejected,PM
+5-Apr-17,250 Hours,ENGINE PORTABLE HPU : 127217,Mechanical,,Rejected,PM
+5-Apr-17,None,(not equ,DRILLING ,,Closed,CM
+6-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,Larry Bartlett,Closed,PM
+6-Apr-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,User1 User1,Expired,PM
+6-Apr-17,2000 Hours,RIG HPU,Mechanical,User1 User1,Expired,PM
+6-Apr-17,365 Calendar Days,ACCUMULATOR : 127197,Mechanical,,Rejected,PM
+6-Apr-17,365 Calendar Days,AIR COMPRESSOR : 127210,Mechanical,,Rejected,PM
+6-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+6-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+6-Apr-17,2000 Hours,RIG HPU,Mechanical,User1 User1,Due,PM
+6-Apr-17,365 Calendar Days,ACCUMULATOR : 127197,Mechanical,Larry Bartlett,Closed,PM
+6-Apr-17,None,PIPE HAN,DRILLING ,,Closed,CM
+6-Apr-17,None,PIPE HAN,ELECTRICAL ,,Closed,CM
+7-Apr-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+7-Apr-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Due,PM
+7-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+7-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+7-Apr-17,None,POWER TO,DRILLING ,,Closed,CM
+8-Apr-17,30 Operating Days,"GATE VALVE : MUD PUMP 2 - 2"" BLEED OFF",Drilling,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,MUD TANK PRESSURE WASHER,Mechanical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : CHOKE MANIFOLD : 127228,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 2 : 127278,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : WATER TANK : 127240,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,SHALE SHAKER #2 : 127172,Drilling,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127247,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 2 : 127278,Electrical,Don Kirschener,Closed,PM
+8-Apr-17,2000 Hours,RIG HPU,Mechanical,Larry Bartlett,Due,PM
+8-Apr-17,30 Operating Days,SHALE SHAKER #2 : 127172,Drilling,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127248,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127252,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127250,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127267,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Electrical,Don Kirschener,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : WATER TANK : 127240,Electrical,Don Kirschener,Closed,PM
+8-Apr-17,30 Operating Days,CROWN BLOCK : 127167,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,WINCH WIRELINE,Operations,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,WINCH DRILLERS SIDE,Operations,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,Leonel Munoz,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : PCR 3 : 127236,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127256,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,AC UNIT : PCR #3,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 1 : 127274,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,MUD PUMP 1 PRESSURE WASHER,Mechanical,Leonel Munoz,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,WINCH WIRELINE,Operations,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : CHOKE MANIFOLD : 127228,Electrical,Don Kirschener,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE 1,Drilling,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,RELIEF VALVE : MUD PUMP 1,Operations,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127253,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,User1 User1,Due,PM
+8-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG CAMP,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,TRANSFORMER : PCR #3,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,ROTARY TABLE : 127170,Mechanical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,AC UNIT : PCR #1 AC #1,Electrical,David Ellerd,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127254,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,RELIEF VALVE : MUD PUMP 2,Operations,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE #2,Drilling,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127245,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127251,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 1 : 127274,Electrical,Don Kirschener,Closed,PM
+8-Apr-17,30 Operating Days,"GATE VALVE : MUD PUMP 1 - 2"" BLEED OFF",Drilling,User1 User1,Expired,PM
+8-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,CATWALK : 127208,Mechanical,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,CATWALK : 127208,Mechanical,User1 User1,Due,PM
+8-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,RELIEF VALVE : MUD PUMP 2,Operations,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,"GATE VALVE : MUD PUMP 2 - 2"" BLEED OFF",Drilling,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,RELIEF VALVE : MUD PUMP 1,Operations,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,AIR DRYER,Operations,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,"GATE VALVE : MUD PUMP 1 - 2"" BLEED OFF",Drilling,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : ACCUMULATOR : 127226,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127255,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,WINCH OFF DRILLERS SIDE,Operations,,Rejected,PM
+8-Apr-17,30 Operating Days,MUD TANK PRESSURE WASHER,Mechanical,Leonel Munoz,Closed,PM
+8-Apr-17,30 Operating Days,MUD PUMP 1 PRESSURE WASHER,Mechanical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,SHALE SHAKER #1 : 127171,Drilling,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE 1,Drilling,User1 User1,Due,PM
+8-Apr-17,150 Hours,RIG HPU,Mechanical,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,ROTARY TABLE : 127170,Mechanical,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127246,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,DRAWORKS BRAKE ASSEMBLY,Mechanical,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : MUD PUMP 1 - MAIN VALVE,Drilling,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : ACCUMULATOR : 127226,Electrical,Don Kirschener,Closed,PM
+8-Apr-17,30 Operating Days,DEGASSER : 127173,Operations,Larry Bartlett,Closed,PM
+8-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,WINCH DRILLERS SIDE,Operations,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : PCR 2 : 127235,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,GATE VALVE : 127249,Drilling,Larry Bartlett,Closed,PM
+8-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,AC UNIT : PCR #2,Electrical,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,SHALE SHAKER #1 : 127171,Drilling,User1 User1,Due,PM
+8-Apr-17,30 Operating Days,AIR DRYER,Operations,User1 User1,Expired,PM
+8-Apr-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE #2,Drilling,User1 User1,Expired,PM
+8-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Larry Bartlett,Closed,PM
+8-Apr-17,30 Operating Days,GATE VALVE : MUD PUMP 1 - MAIN VALVE,Drilling,User1 User1,Due,PM
+8-Apr-17,None,PIPE HAN,DRILLING ,,Closed,CM
+8-Apr-17,None,PIPE HAN,ELECTRICAL ,,Closed,CM
+9-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,Larry Bartlett,Closed,PM
+9-Apr-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,Larry Bartlett,Closed,PM
+10-Apr-17,30 Operating Days,WINCH OFF DRILLERS SIDE,Operations,User1 User1,Expired,PM
+10-Apr-17,30 Operating Days,WINCH OFF DRILLERS SIDE,Operations,User1 User1,Due,PM
+11-Apr-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+11-Apr-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Due,PM
+11-Apr-17,1000 Hours,ENGINE GEN 1 : 127211,Operations,User1 User1,Due,PM
+11-Apr-17,1000 Hours,ENGINE GEN 2 : 127212,Operations,User1 User1,Due,PM
+12-Apr-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #1,Electrical,David Ellerd,Closed,PM
+12-Apr-17,30 Operating Days,TRANSFORMER : PCR #2,Electrical,David Ellerd,Closed,PM
+12-Apr-17,30 Operating Days,AC UNIT : PCR #1 AC #2,Electrical,David Ellerd,Closed,PM
+12-Apr-17,500 Hours,AIR COMPRESSOR : 127210,Operations,User1 User1,Due,PM
+12-Apr-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+12-Apr-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #2,Electrical,David Ellerd,Closed,PM
+12-Apr-17,None,MUD PUMP,ELECTRICAL ,,Closed,CM
+14-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Larry Bartlett,Closed,PM
+14-Apr-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #1,Electrical,David Ellerd,Closed,PM
+14-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+14-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,Don Kirschener,Closed,PM
+14-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,David Ellerd,Closed,PM
+14-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+14-Apr-17,30 Operating Days,AC UNIT : PCR #3,Electrical,David Ellerd,Closed,PM
+14-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Expired,PM
+14-Apr-17,30 Operating Days,PORTABLE BUILDING : PCR 3 : 127236,Electrical,David Ellerd,Closed,PM
+14-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+14-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Due,PM
+14-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Expired,PM
+14-Apr-17,30 Operating Days,AC UNIT : PCR #2,Electrical,David Ellerd,Closed,PM
+14-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+14-Apr-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,User1 User1,Due,PM
+14-Apr-17,30 Operating Days,AC UNIT : PCR #1 AC #2,Electrical,David Ellerd,Closed,PM
+14-Apr-17,200 Hours,GENERATOR 3 : 127220,Electrical,User1 User1,Due,PM
+14-Apr-17,200 Hours,GENERATOR 4 : 127221,Electrical,User1 User1,Due,PM
+14-Apr-17,30 Operating Days,PORTABLE BUILDING : PCR 2 : 127235,Electrical,David Ellerd,Closed,PM
+14-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+15-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,Larry Bartlett,Closed,PM
+15-Apr-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+15-Apr-17,500 Hours,AC MOTOR : DRAWORKS MOTOR : 127164,Electrical,Don Kirschener,Closed,PM
+16-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+16-Apr-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,David Ellerd,Closed,PM
+16-Apr-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG CAMP,Electrical,David Ellerd,Closed,PM
+17-Apr-17,None,TOP DRIV,ELECTRICAL ,,Closed,CM
+18-Apr-17,200 Hours,GENERATOR 3 : 127220,Electrical,David Ellerd,Closed,PM
+18-Apr-17,200 Hours,GENERATOR 4 : 127221,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #2,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,TRANSFORMER : PCR #3,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,TRANSFORMER : PCR #2,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,David Ellerd,Closed,PM
+18-Apr-17,30 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,David Ellerd,Closed,PM
+18-Apr-17,None,MUD PUMP,ELECTRICAL ,,Closed,CM
+19-Apr-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+19-Apr-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+20-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Larry Bartlett,Closed,PM
+21-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Due,PM
+21-Apr-17,None,ROTARY S,MECHANICAL ,,Closed,CM
+22-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+22-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Expired,PM
+22-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+22-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Expired,PM
+22-Apr-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+24-Apr-17,30 Operating Days,POWER PANEL : MUD TANK 1,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,SINGLE RAMS,Drilling,Larry Bartlett,Closed,PM
+24-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+24-Apr-17,30 Operating Days,POWER PANEL : MUD TANK 1,Electrical,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR2,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : MUD PUMP 1,Electrical,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,VFD : DRAWWORKS,Electrical,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,DOUBLE RAMS,Drilling,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,VFD : MUD PUMP 1,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,POWER PANEL : MUD TANK 2,Electrical,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,VFD : MUD PUMP 2,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : BLOWER MUD PUMP 1,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+24-Apr-17,30 Operating Days,VFD : BLOWER BLOWER GEN 3,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,SINGLE RAMS,Drilling,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,VFD : BLOWER BLOWER GEN 1,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : TOP DRIVE,Electrical,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,VFD : TOP DRIVE,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR1,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : DRAWWORKS,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : MUD PUMP 2,Electrical,User1 User1,Due,PM
+24-Apr-17,30 Operating Days,VFD : BLOWER BLOWER GEN 2,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : BLOWER BLOWER GEN 4,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR3,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,POWER PANEL : MUD TANK 2,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,VFD : BLOWER MUD PUMP 2,Electrical,Don Kirschener,Closed,PM
+24-Apr-17,30 Operating Days,DOUBLE RAMS,Drilling,Larry Bartlett,Closed,PM
+24-Apr-17,None,TOP DRIV,ELECTRICAL ,,Closed,CM
+25-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+25-Apr-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Expired,PM
+26-Apr-17,2000 Hours,AIR COMPRESSOR : 127210,Mechanical,,Rejected,PM
+26-Apr-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,User1 User1,Expired,PM
+26-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+26-Apr-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+26-Apr-17,365 Calendar Days,AIR COMPRESSOR : 127210,Mechanical,,Rejected,PM
+26-Apr-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+26-Apr-17,None,TOP DRIV,DRILLING ,,Closed,CM
+27-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+27-Apr-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Leonel Munoz,Closed,PM
+29-Apr-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+29-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Expired,PM
+29-Apr-17,1000 Hours,ENGINE GEN 4 : 127214,Operations,Leonel Munoz,Closed,PM
+29-Apr-17,1000 Hours,ENGINE GEN 3 : 127213,Operations,Leonel Munoz,Closed,PM
+29-Apr-17,1000 Hours,ENGINE GEN 4 : 127214,Operations,Leonel Munoz,Closed,PM
+29-Apr-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+29-Apr-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+29-Apr-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127249,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127251,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127255,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127245,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127247,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,DRAWORKS BRAKE ASSEMBLY,Mechanical,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127267,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127248,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127256,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127250,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,AC UNIT : PCR #1 AC #1,Electrical,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127252,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127246,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127252,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127246,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,CROWN BLOCK : 127167,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127253,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127248,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127250,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127254,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127249,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127267,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127247,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127253,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127254,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127245,Drilling,User1 User1,Due,PM
+1-May-17,30 Operating Days,AC UNIT : PCR #1 AC #1,Electrical,Don Kirschener,Closed,PM
+1-May-17,30 Operating Days,CROWN BLOCK : 127167,Drilling,Larry Bartlett,Closed,PM
+1-May-17,30 Operating Days,GATE VALVE : 127255,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,GATE VALVE : 127256,Drilling,User1 User1,Expired,PM
+1-May-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,User1 User1,Due,PM
+1-May-17,30 Operating Days,GATE VALVE : 127251,Drilling,User1 User1,Due,PM
+2-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Expired,PM
+3-May-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+3-May-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+4-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+4-May-17,Semi Annualy,HP MUD HOSE KELLY : 127176,Drilling,,Rejected,PM
+5-May-17,None,TOP DRIV,ELECTRICAL ,,Closed,CM
+6-May-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #1,Electrical,Don Kirschener,Closed,PM
+6-May-17,30 Operating Days,AC UNIT : PCR #1 AC #2,Electrical,Don Kirschener,Closed,PM
+6-May-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+6-May-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+6-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Expired,PM
+6-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Expired,PM
+6-May-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+6-May-17,None,GEN SET ,DRILLING ,,Closed,CM
+7-May-17,30 Operating Days,PORTABLE BUILDING : PCR 3 : 127236,Electrical,Don Kirschener,Closed,PM
+7-May-17,30 Operating Days,AC UNIT : PCR #2,Electrical,Don Kirschener,Closed,PM
+7-May-17,30 Operating Days,PORTABLE BUILDING : PCR 2 : 127235,Electrical,Don Kirschener,Closed,PM
+7-May-17,30 Operating Days,AC UNIT : PCR #3,Electrical,Don Kirschener,Closed,PM
+8-May-17,None,GEN SET ,MECHANICAL ,,Closed,CM
+10-May-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+10-May-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Expired,PM
+10-May-17,None,GEN SET ,ELECTRICAL ,,Closed,CM
+10-May-17,None,GEN SET ,ELECTRICAL ,,Closed,CM
+10-May-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+11-May-17,30 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,Don Kirschener,Closed,PM
+11-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+11-May-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #2,Electrical,Don Kirschener,Closed,PM
+11-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,TRANSFORMER : PCR #3,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,Don Kirschener,Open,PM
+11-May-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,Don Kirschener,Open,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,TRANSFORMER : PCR #2,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG CAMP,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,TRANSFORMER : PCR #3,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,TRANSFORMER : PCR #2,Electrical,Don Kirschener,Closed,PM
+11-May-17,30 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,TRANSFORMER : PCR #2,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,SHALE SHAKER #1 : 127171,Drilling,Don Kirschener,Due,PM
+12-May-17,200 Hours,GENERATOR 2 : 127219,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,DEGASSER : 127173,Operations,Don Kirschener,Due,PM
+12-May-17,30 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,TRANSFORMER : PCR #3,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,Don Kirschener,Closed,PM
+12-May-17,200 Hours,GENERATOR 3 : 127220,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,Don Kirschener,Due,PM
+12-May-17,200 Hours,GENERATOR 4 : 127221,Electrical,Don Kirschener,Closed,PM
+12-May-17,7 Operating Days,DEGASSER : 127173,Operations,Don Kirschener,Due,PM
+12-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+12-May-17,30 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,TOP DRIVE : 127169,Operations,Don Kirschener,Due,PM
+12-May-17,500 Hours,AIR COMPRESSOR : 127210,Operations,Don Kirschener,Due,PM
+12-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+12-May-17,30 Operating Days,AIR DRYER,Operations,Leonel Munoz,Due,PM
+12-May-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG CAMP,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #2,Electrical,Don Kirschener,Closed,PM
+12-May-17,500 Hours,AIR COMPRESSOR : 127210,Operations,Don Kirschener,Due,PM
+12-May-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,Leonel Munoz,Due,PM
+12-May-17,30 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,Don Kirschener,Closed,PM
+12-May-17,30 Operating Days,TOP DRIVE : 127169,Operations,Don Kirschener,Due,PM
+13-May-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+13-May-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+14-May-17,30 Operating Days,SHALE SHAKER #1 : 127171,Drilling,Kyle Maynard,Due,PM
+14-May-17,30 Operating Days,SHALE SHAKER #1 : 127171,Drilling,Larry Bartlett,Closed,PM
+14-May-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,Don Kirschener,Due,PM
+14-May-17,200 Hours,GENERATOR 1 : 127218,Electrical,Don Kirschener,Closed,PM
+14-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Kyle Maynard,Closed,PM
+14-May-17,30 Operating Days,SHALE SHAKER #2 : 127172,Drilling,Larry Bartlett,Closed,PM
+15-May-17,30 Operating Days,"GATE VALVE : MUD PUMP 2 - 2"" BLEED OFF",Drilling,Kyle Maynard,Closed,PM
+15-May-17,200 Hours,GENERATOR 1 : 127218,Electrical,Don Kirschener,Closed,PM
+15-May-17,30 Operating Days,RELIEF VALVE : MUD PUMP 1,Operations,Kyle Maynard,Closed,PM
+15-May-17,30 Operating Days,CATWALK : 127208,Mechanical,Kyle Maynard,Closed,PM
+15-May-17,30 Operating Days,"GATE VALVE : MUD PUMP 1 - 2"" BLEED OFF",Drilling,Kyle Maynard,Closed,PM
+15-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+15-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Kyle Maynard,Closed,PM
+15-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Kyle Maynard,Closed,PM
+15-May-17,30 Operating Days,RELIEF VALVE : MUD PUMP 2,Operations,Kyle Maynard,Closed,PM
+15-May-17,7 Operating Days,CATWALK : 127208,Drilling,Kyle Maynard,Closed,PM
+15-May-17,Semi Annualy,HP MUD HOSE KELLY : 127176,Drilling,Kyle Maynard,Closed,PM
+15-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Kyle Maynard,Closed,PM
+15-May-17,None,(not equ,RIG PERFORMANCE ,,Closed,CM
+16-May-17,None,(not equ,HUMAN ERROR,,Closed,CM
+16-May-17,None,RIG CONT,ELECTRICAL ,,Closed,CM
+16-May-17,None,ACCUMULA,ELECTRICAL ,,Closed,CM
+16-May-17,None,MUD PUMP,DRILLING ,,Closed,CM
+17-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,,Rejected,PM
+17-May-17,2000 Hours,GENERATOR 4 : 127221,Electrical,,Rejected,PM
+17-May-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+17-May-17,30 Operating Days,SHALE SHAKER #1 : 127171,Drilling,Don Kirschener,Due,PM
+18-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+19-May-17,30 Operating Days,WINCH WIRELINE,Operations,Kyle Maynard,Closed,PM
+19-May-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,Kyle Maynard,Closed,PM
+19-May-17,30 Operating Days,ROTARY TABLE : 127170,Mechanical,Kyle Maynard,Closed,PM
+19-May-17,30 Operating Days,WINCH DRILLERS SIDE,Operations,Kyle Maynard,Closed,PM
+19-May-17,200 Hours,GENERATOR 2 : 127219,Electrical,User1 User1,Due,PM
+19-May-17,200 Hours,GENERATOR 2 : 127219,Electrical,Don Kirschener,Closed,PM
+19-May-17,150 Hours,RIG HPU,Mechanical,Kyle Maynard,Closed,PM
+19-May-17,1000 Hours,ENGINE GEN 1 : 127211,Operations,Kyle Maynard,Closed,PM
+19-May-17,2000 Hours,RIG HPU,Mechanical,Kyle Maynard,Closed,PM
+19-May-17,1000 Hours,ENGINE GEN 2 : 127212,Operations,Kyle Maynard,Closed,PM
+19-May-17,30 Operating Days,WINCH OFF DRILLERS SIDE,Operations,Kyle Maynard,Closed,PM
+19-May-17,None,POWER TO,MECHANICAL ,,Closed,CM
+20-May-17,30 Operating Days,MUD PUMP 1 PRESSURE WASHER,Mechanical,Larry Bartlett,Closed,PM
+20-May-17,500 Hours,AIR COMPRESSOR : 127210,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,AIR DRYER,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,MUD TANK PRESSURE WASHER,Mechanical,Larry Bartlett,Closed,PM
+20-May-17,150 Hours,RIG HPU,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,MUD PUMP 1 PRESSURE WASHER,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,200 Hours,GENERATOR 4 : 127221,Electrical,Don Kirschener,Closed,PM
+20-May-17,30 Operating Days,WINCH DRILLERS SIDE,Operations,Kyle Maynard,Closed,PM
+20-May-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,WINCH OFF DRILLERS SIDE,Operations,Kyle Maynard,Closed,PM
+20-May-17,2000 Hours,RIG HPU,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,365 Calendar Days,AIR COMPRESSOR : 127210,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+20-May-17,1000 Hours,ENGINE GEN 1 : 127211,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,MUD TANK PRESSURE WASHER,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE #2,Drilling,Kyle Maynard,Closed,PM
+20-May-17,7 Operating Days,DEGASSER : 127173,Operations,Kyle Maynard,Closed,PM
+20-May-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,Kyle Maynard,Closed,PM
+20-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+20-May-17,500 Hours,AIR COMPRESSOR : 127210,Operations,Kyle Maynard,Closed,PM
+20-May-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,WINCH WIRELINE,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,GATE VALVE : MUD PUMP 1 - MAIN VALVE,Drilling,Kyle Maynard,Closed,PM
+20-May-17,200 Hours,GENERATOR 4 : 127221,Electrical,User1 User1,Due,PM
+20-May-17,1000 Hours,ENGINE GEN 2 : 127212,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,DEGASSER : 127173,Operations,Kyle Maynard,Closed,PM
+20-May-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE 1,Drilling,Kyle Maynard,Closed,PM
+20-May-17,250 Hours,ENGINE DIESEL HPU : 127216,Mechanical,Kyle Maynard,Closed,PM
+21-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Expired,PM
+21-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Larry Bartlett,Closed,PM
+21-May-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR2,Electrical,Don Kirschener,Closed,PM
+21-May-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR3,Electrical,Don Kirschener,Closed,PM
+21-May-17,30 Operating Days,VFD : BLOWER MUD PUMP 1,Electrical,Don Kirschener,Closed,PM
+21-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+21-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+21-May-17,7 Operating Days,CATWALK : 127208,Drilling,Larry Bartlett,Closed,PM
+21-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+21-May-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR1,Electrical,Don Kirschener,Closed,PM
+21-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+21-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+21-May-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Due,PM
+21-May-17,30 Operating Days,VFD : BLOWER MUD PUMP 2,Electrical,Don Kirschener,Closed,PM
+21-May-17,None,POWER TO,DRILLING ,,Closed,CM
+22-May-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,,Rejected,PM
+22-May-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,,Rejected,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 2 : 127278,Electrical,Don Kirschener,Closed,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : ACCUMULATOR : 127226,Electrical,Don Kirschener,Closed,PM
+22-May-17,7 Operating Days,DEGASSER : 127173,Operations,,Rejected,PM
+22-May-17,30 Operating Days,VFD : BLOWER BLOWER GEN 3,Electrical,Don Kirschener,Closed,PM
+22-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,,Rejected,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : CHOKE MANIFOLD : 127228,Electrical,Don Kirschener,Closed,PM
+22-May-17,2000 Hours,GENERATOR 4 : 127221,Electrical,,Rejected,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : WATER TANK : 127240,Electrical,Don Kirschener,Closed,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 1 : 127274,Electrical,Don Kirschener,Closed,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,Don Kirschener,Closed,PM
+22-May-17,365 Calendar Days,AIR COMPRESSOR : 127210,Mechanical,,Rejected,PM
+22-May-17,30 Operating Days,VFD : BLOWER BLOWER GEN 1,Electrical,Don Kirschener,Closed,PM
+22-May-17,30 Operating Days,AIR DRYER,Operations,,Rejected,PM
+22-May-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE #2,Drilling,,Rejected,PM
+22-May-17,500 Hours,AIR COMPRESSOR : 127210,Operations,,Rejected,PM
+22-May-17,30 Operating Days,VFD : BLOWER BLOWER GEN 4,Electrical,Don Kirschener,Closed,PM
+22-May-17,30 Operating Days,ROTARY TABLE : 127170,Mechanical,,Rejected,PM
+22-May-17,30 Operating Days,VFD : BLOWER BLOWER GEN 2,Electrical,Don Kirschener,Closed,PM
+22-May-17,Annually,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,,Rejected,PM
+22-May-17,30 Operating Days,DEGASSER : 127173,Operations,,Rejected,PM
+22-May-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE 1,Drilling,,Rejected,PM
+22-May-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,,Rejected,PM
+22-May-17,30 Operating Days,GATE VALVE : MUD PUMP 1 - MAIN VALVE,Drilling,,Rejected,PM
+22-May-17,None,PIPE HAN,ELECTRICAL ,,Closed,CM
+23-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+23-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,Eric Perkins,Closed,PM
+23-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+23-May-17,200 Hours,GENERATOR 2 : 127219,Electrical,Don Kirschener,Closed,PM
+23-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,,Rejected,PM
+23-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Eric Perkins,Closed,PM
+23-May-17,2000 Hours,GENERATOR 4 : 127221,Electrical,,Rejected,PM
+23-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,,Rejected,PM
+23-May-17,200 Hours,GENERATOR 4 : 127221,Electrical,Don Kirschener,Closed,PM
+23-May-17,2000 Hours,GENERATOR 4 : 127221,Electrical,,Rejected,PM
+23-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+24-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,Larry Bartlett,Open,PM
+24-May-17,7 Operating Days,MAST : 127166,Operations,Larry Bartlett,Closed,PM
+24-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,Larry Bartlett,Closed,PM
+24-May-17,2000 Hours,GENERATOR 3 : 127220,Electrical,User1 User1,Due,PM
+25-May-17,90 Operating Days,ACCUMULATOR : 127197,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 6,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : PCR 2 : 127235,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 2,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : WATER TANK : 127240,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : CHOKE MANIFOLD : 127228,Electrical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : ACCUMULATOR : 127226,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 5,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 12,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 8,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 7,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 4,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 11,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 1,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 3,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 10,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,RELIEF VALVE : MUD PUMP 2,Operations,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : MUD PUMP 1 : 127274,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,DRAWWORKS BRAKE CYLINDER 9,Mechanical,Larry Bartlett,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : PCR 3 : 127236,Electrical,Don Kirschener,Closed,PM
+25-May-17,90 Operating Days,PORTABLE BUILDING : MUD PUMP 2 : 127278,Electrical,Don Kirschener,Closed,PM
+25-May-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+26-May-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,Larry Bartlett,Closed,PM
+26-May-17,7 Operating Days,DEGASSER : 127173,Operations,Larry Bartlett,Closed,PM
+26-May-17,150 Hours,RIG HPU,Mechanical,User1 User1,Due,PM
+26-May-17,90 Operating Days,HPU : PORTABLE SKID : 127239,Mechanical,Larry Bartlett,Closed,PM
+26-May-17,150 Hours,RIG HPU,Mechanical,Larry Bartlett,Closed,PM
+26-May-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+26-May-17,200 Hours,GENERATOR 1 : 127218,Electrical,Larry Bartlett,Closed,PM
+26-May-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Due,PM
+27-May-17,90 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,,Rejected,PM
+27-May-17,500 Hours,AC MOTOR : MUD PUMP 2 : 127280,Electrical,,Rejected,PM
+27-May-17,30 Operating Days,DRAWORKS BRAKE ASSEMBLY,Mechanical,,Rejected,PM
+27-May-17,90 Operating Days,RELIEF VALVE : MUD PUMP 1,Operations,,Rejected,PM
+27-May-17,90 Operating Days,CATWALK : 127208,Mechanical,,Rejected,PM
+27-May-17,90 Operating Days,TOP DRIVE : 127169,Mechanical,,Rejected,PM
+27-May-17,200 Hours,GENERATOR 3 : 127220,Electrical,Larry Bartlett,Closed,PM
+27-May-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,Larry Bartlett,Closed,PM
+27-May-17,90 Operating Days,ROTARY TABLE : 127170,Mechanical,,Rejected,PM
+27-May-17,200 Hours,GENERATOR 3 : 127220,Electrical,User1 User1,Due,PM
+27-May-17,500 Hours,AC MOTOR : MUD PUMP 1 : 127276,Electrical,,Rejected,PM
+27-May-17,250 Hours,ENGINE DIESEL HPU : 127216,Mechanical,,Rejected,PM
+27-May-17,4000 Hours,AIR COMPRESSOR : 127210,Mechanical,,Rejected,PM
+27-May-17,30 Operating Days,TOP DRIVE : 127169,Operations,,Rejected,PM
+28-May-17,4000 Hours,AIR COMPRESSOR : 127210,Mechanical,User1 User1,Due,PM
+28-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,David Ellerd,Closed,PM
+28-May-17,90 Operating Days,TOP DRIVE : 127169,Mechanical,Larry Bartlett,Closed,PM
+28-May-17,90 Operating Days,RELIEF VALVE : MUD PUMP 1,Operations,Larry Bartlett,Closed,PM
+28-May-17,30 Operating Days,TOP DRIVE : 127169,Operations,Larry Bartlett,Closed,PM
+28-May-17,90 Operating Days,CATWALK : 127208,Mechanical,Larry Bartlett,Closed,PM
+28-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Larry Bartlett,Closed,PM
+28-May-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+28-May-17,500 Hours,AC MOTOR : MUD PUMP 1 : 127276,Electrical,User1 User1,Due,PM
+28-May-17,500 Hours,AC MOTOR : MUD PUMP 2 : 127280,Electrical,User1 User1,Due,PM
+28-May-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Due,PM
+28-May-17,90 Operating Days,ROTARY TABLE : 127170,Mechanical,Larry Bartlett,Closed,PM
+28-May-17,30 Operating Days,DRAWORKS BRAKE ASSEMBLY,Mechanical,Larry Bartlett,Closed,PM
+28-May-17,90 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,Larry Bartlett,Closed,PM
+29-May-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Larry Bartlett,Closed,PM
+31-May-17,2000 Hours,GENERATOR 4 : 127221,Electrical,,Rejected,PM
+31-May-17,None,MUD PUMP,DRILLING ,,Closed,CM
+1-Jun-17,30 Operating Days,POWER PANEL : MUD TANK 2,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #1,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #2,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #1 AC #2,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,PORTABLE BUILDING : PCR 2 : 127235,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #3,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #3,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,VFD : MUD PUMP 2,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,VFD : MUD PUMP 2,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,POWER PANEL : MUD TANK 2,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,PORTABLE BUILDING : PCR 2 : 127235,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #1 AC #1,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #1,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #2,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,VFD : MUD PUMP 1,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,VFD : TOP DRIVE,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #1 AC #1,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,VFD : DRAWWORKS,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,VFD : TOP DRIVE,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,POWER PANEL : MUD TANK 1,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,PORTABLE BUILDING : PCR 3 : 127236,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,VFD : MUD PUMP 1,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,POWER PANEL : MUD TANK 1,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,PORTABLE BUILDING : PCR 3 : 127236,Electrical,Don Kirschener,Closed,PM
+1-Jun-17,30 Operating Days,AC UNIT : PCR #1 AC #2,Electrical,User1 User1,Due,PM
+1-Jun-17,30 Operating Days,VFD : DRAWWORKS,Electrical,Don Kirschener,Closed,PM
+3-Jun-17,None,(not equ,DRILLING ,,Closed,CM
+5-Jun-17,None,TOP DRIV,MECHANICAL ,,Closed,CM
+6-Jun-17,30 Operating Days,GATE VALVE : 127253,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127252,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127251,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127255,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127247,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127254,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127249,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127248,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127250,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,2000 Hours,GENERATOR 4 : 127221,Electrical,,Rejected,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127245,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127246,Drilling,Larry Bartlett,Closed,PM
+6-Jun-17,30 Operating Days,GATE VALVE : 127256,Drilling,Larry Bartlett,Closed,PM
+7-Jun-17,2000 Hours,GENERATOR 4 : 127221,Electrical,Larry Bartlett,Closed,PM
+11-Jun-17,None,POWER TO,MECHANICAL ,,Closed,CM
+11-Jun-17,None,(not equ,HYDRAULIC ,,Closed,CM
+12-Jun-17,None,TOP DRIV,HYDRAULIC ,,Closed,CM
+12-Jun-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+12-Jun-17,None,(not equ,DRILLING ,,Closed,CM
+13-Jun-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+13-Jun-17,None,POWER TO,ELECTRICAL ,,Closed,CM
+15-Jun-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Due,PM
+15-Jun-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Due,PM
+15-Jun-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+15-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+15-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,Larry Bartlett,Closed,PM
+15-Jun-17,7 Operating Days,DEGASSER : 127173,Operations,Larry Bartlett,Closed,PM
+15-Jun-17,500 Hours,AC MOTOR : DRAWORKS MOTOR : 127164,Electrical,User1 User1,Due,PM
+15-Jun-17,200 Hours,GENERATOR 4 : 127221,Electrical,Larry Bartlett,Closed,PM
+15-Jun-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,Larry Bartlett,Closed,PM
+15-Jun-17,500 Hours,AIR COMPRESSOR : 127210,Operations,Larry Bartlett,Closed,PM
+15-Jun-17,7 Operating Days,CATWALK : 127208,Drilling,Larry Bartlett,Closed,PM
+15-Jun-17,500 Hours,AIR COMPRESSOR : 127210,Operations,User1 User1,Due,PM
+15-Jun-17,200 Hours,GENERATOR 2 : 127219,Electrical,Larry Bartlett,Closed,PM
+15-Jun-17,150 Hours,RIG HPU,Mechanical,Larry Bartlett,Closed,PM
+15-Jun-17,7 Operating Days,MAST : 127166,Operations,Larry Bartlett,Closed,PM
+15-Jun-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Due,PM
+15-Jun-17,None,RIG CONT,DRILLING ,,Closed,CM
+16-Jun-17,7 Operating Days,TOP DRIVE : 127169,Operations,Larry Bartlett,Closed,PM
+17-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+17-Jun-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+17-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,Larry Bartlett,Closed,PM
+17-Jun-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Larry Bartlett,Closed,PM
+17-Jun-17,None,PIPE HAN,MECHANICAL ,,Closed,CM
+18-Jun-17,30 Operating Days,TRANSFORMER : PCR #2,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,PORTABLE BUILDING : GEN 4 : 127233,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,PORTABLE BUILDING : GEN 1 : 127230,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,PORTABLE BUILDING : GEN 2 : 127231,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,TRANSFORMER : PCR #3,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,TRANSFORMER : PCR #1 TRANS #2,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG CAMP,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,PORTABLE BUILDING : PCR 1 : 127234,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG,Electrical,User1 User1,Due,PM
+18-Jun-17,30 Operating Days,PORTABLE BUILDING : GEN 3 : 127232,Electrical,Don Kirschener,Closed,PM
+18-Jun-17,30 Operating Days,EARTHING AND BONDING SYSTEM : RIG CAMP,Electrical,User1 User1,Due,PM
+19-Jun-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Due,PM
+19-Jun-17,21 Operating Days,DRAWWORKS CARRIER : 127184,Operations,User1 User1,Due,PM
+19-Jun-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,Larry Bartlett,Closed,PM
+19-Jun-17,200 Hours,GENERATOR 1 : 127218,Electrical,Don Kirschener,Closed,PM
+19-Jun-17,None,DP/DC EL,DRILLING ,,Closed,CM
+20-Jun-17,None,DRAWWORK,ELECTRICAL ,,Closed,CM
+20-Jun-17,None,PIPE HAN,ELECTRICAL ,,Closed,CM
+21-Jun-17,150 Hours,RIG HPU,Mechanical,User1 User1,Due,PM
+21-Jun-17,30 Operating Days,"GATE VALVE : MUD PUMP 2 - 2"" BLEED OFF",Drilling,User1 User1,Due,PM
+21-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+21-Jun-17,500 Hours,AC MOTOR : MUD PUMP 2 : 127280,Electrical,,Rejected,PM
+21-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+21-Jun-17,500 Hours,AC MOTOR : DRAWORKS MOTOR : 127164,Electrical,,Rejected,PM
+21-Jun-17,500 Hours,AC MOTOR : MUD PUMP 1 : 127276,Electrical,,Rejected,PM
+21-Jun-17,30 Operating Days,RELIEF VALVE : MUD PUMP 1,Operations,User1 User1,Due,PM
+21-Jun-17,30 Operating Days,RELIEF VALVE : MUD PUMP 2,Operations,User1 User1,Due,PM
+21-Jun-17,30 Operating Days,"GATE VALVE : MUD PUMP 1 - 2"" BLEED OFF",Drilling,User1 User1,Due,PM
+21-Jun-17,30 Operating Days,CATWALK : 127208,Mechanical,User1 User1,Due,PM
+22-Jun-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Expired,PM
+22-Jun-17,500 Hours,AC MOTOR : MUD PUMP 2 : 127280,Electrical,Don Kirschener,Closed,PM
+22-Jun-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Expired,PM
+22-Jun-17,7 Operating Days,DRAWORKS BRAKE ASSEMBLY,Drilling,User1 User1,Due,PM
+22-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+22-Jun-17,200 Hours,GENERATOR 3 : 127220,Electrical,Don Kirschener,Closed,PM
+22-Jun-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Due,PM
+22-Jun-17,500 Hours,AC MOTOR : MUD PUMP 1 : 127276,Electrical,Don Kirschener,Closed,PM
+22-Jun-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+22-Jun-17,7 Operating Days,CATWALK : 127208,Drilling,User1 User1,Due,PM
+22-Jun-17,500 Hours,AC MOTOR : DRAWORKS MOTOR : 127164,Electrical,Don Kirschener,Closed,PM
+22-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Expired,PM
+22-Jun-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Expired,PM
+22-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+22-Jun-17,7 Operating Days,DEGASSER : 127173,Operations,User1 User1,Expired,PM
+22-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 1 : 127277,Operations,User1 User1,Due,PM
+22-Jun-17,7 Operating Days,TOP DRIVE : 127169,Operations,User1 User1,Expired,PM
+22-Jun-17,500 Hours,AC MOTOR : DRAWORKS MOTOR : 127164,Electrical,Don Kirschener,Closed,PM
+22-Jun-17,7 Operating Days,MAST : 127166,Operations,User1 User1,Due,PM
+23-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+23-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+23-Jun-17,200 Hours,GENERATOR 2 : 127219,Electrical,Don Kirschener,Closed,PM
+24-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+24-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+24-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Expired,PM
+24-Jun-17,7 Operating Days,PULSATION DAMPENER : MUD PUMP 2 : 127281,Operations,User1 User1,Due,PM
+25-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+25-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+25-Jun-17,7 Operating Days,PIPE ARM : 127209,Mechanical,User1 User1,Due,PM
+25-Jun-17,30 Operating Days,ROTARY TABLE : 127170,Mechanical,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE #2,Drilling,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,User1 User1,Due,PM
+26-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+26-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+26-Jun-17,30 Operating Days,GATE VALVE : MUD PUMP 2 - MAIN VALVE 1,Drilling,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,WINCH WIRELINE,Operations,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,WINCH WIRELINE,Operations,Leonel Munoz,Closed,PM
+26-Jun-17,30 Operating Days,AIR DRYER,Operations,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK : 127272,Mechanical,Leonel Munoz,Closed,PM
+26-Jun-17,30 Operating Days,DEGASSER : 127173,Operations,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,WINCH DRILLERS SIDE,Operations,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,ACCUMULATOR : 127197,Mechanical,Leonel Munoz,Closed,PM
+26-Jun-17,30 Operating Days,GATE VALVE : MUD PUMP 1 - MAIN VALVE,Drilling,User1 User1,Due,PM
+26-Jun-17,30 Operating Days,WINCH OFF DRILLERS SIDE,Operations,User1 User1,Due,PM
+27-Jun-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Due,PM
+27-Jun-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,Leonel Munoz,Closed,PM
+27-Jun-17,2000 Hours,GENERATOR 2 : 127219,Electrical,,Rejected,PM
+27-Jun-17,2000 Hours,GENERATOR 1 : 127218,Electrical,,Rejected,PM
+28-Jun-17,7 Operating Days,POWER TONG : 127091,Mechanical,User1 User1,Due,PM
+28-Jun-17,7 Operating Days,PIPE ARM : 127209,Mechanical,,Rejected,PM
+28-Jun-17,30 Operating Days,PORTABLE BUILDING : FUEL TANK/WORKSHOP : 127229,Electrical,Don Kirschener,Closed,PM
+28-Jun-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR1,Electrical,Don Kirschener,Closed,PM
+28-Jun-17,30 Operating Days,PORTABLE BUILDING : WATER TANK : 127240,Electrical,Don Kirschener,Closed,PM
+28-Jun-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR3,Electrical,Don Kirschener,Closed,PM
+28-Jun-17,30 Operating Days,A.C. MOTOR CONTROL CENTER UNIT PCR2,Electrical,Don Kirschener,Closed,PM
+28-Jun-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 2 : 127278,Electrical,Don Kirschener,Closed,PM
+28-Jun-17,30 Operating Days,PORTABLE BUILDING : MUD PUMP 1 : 127274,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,7 Operating Days,PIPE ARM : 127209,Mechanical,Leonel Munoz,Closed,PM
+29-Jun-17,30 Operating Days,PORTABLE BUILDING : CHOKE MANIFOLD : 127228,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,PORTABLE BUILDING : ACCUMULATOR : 127226,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,VFD : BLOWER BLOWER GEN 1,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,VFD : BLOWER BLOWER GEN 2,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,VFD : BLOWER MUD PUMP 2,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,VFD : BLOWER BLOWER GEN 3,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,VFD : BLOWER BLOWER GEN 4,Electrical,Don Kirschener,Closed,PM
+29-Jun-17,30 Operating Days,VFD : BLOWER MUD PUMP 1,Electrical,Don Kirschener,Closed,PM
+30-Jun-17,7 Operating Days,TOP DRIVE : 127169,Operations,Leonel Munoz,Closed,PM
+2-Jul-17,7 Operating Days,CATWALK : 127208,Drilling,,Rejected,PM
+2-Jul-17,7 Operating Days,POWER TONG : 127091,Mechanical,,Rejected,PM
+4-Jul-17,7 Operating Days,SUBSTRUCTURE CENTER SECTION : 127181,Operations,User1 User1,Due,PM
