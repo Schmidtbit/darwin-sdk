@@ -345,7 +345,7 @@ class DarwinSdk:
         try:
             r = self.s.get(url)
         except SSLError:
-            print("SSL certificate check failed. You can disable cerificate check by calling verify_ssl_certificate")
+            print("SSL certificate check failed. You can disable cerificate check by calling disable_ssl_cert_check")
             return False, "SSLError"
         return self.get_return_info(r)
 
