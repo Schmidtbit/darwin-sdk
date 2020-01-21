@@ -19,7 +19,7 @@ setup(
     author='Sheila Cheng',
     author_email='scheng@sparkcognition.com',
     install_requires=[
-        'validators==0.12.4',
+        'validators==0.12.6',
         'urllib3==1.24.3',
         'pandas==0.24.2',
         'requests_toolbelt==0.9.1',
