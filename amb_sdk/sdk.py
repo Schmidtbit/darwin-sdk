@@ -495,6 +495,8 @@ class DarwinSdk:
                     if DarwinSdk.is_number(df[col_name][0]):
                         df[col_name] = pd.to_numeric(df[col_name], errors='coerce')
                     return True, df
+            if artifact_type == 'Evaluate':
+                return self._write_to_file(artifact_path, '.json', response['artifact'])
 
             return False, "Unsupported artifact type: {}".format(artifact_type)
         else:
@@ -631,7 +633,8 @@ class DarwinSdk:
         r = self.s.post(url, headers=headers, json=parameters)
         if not r.ok and 'Please run analyze data' in r.text:
             print("Raw profile not found. Running analyze_data")
-            r = self.analyze_data(dataset_name)
+            char_encoding = parameters['char_encoding'] if 'char_encoding' in parameters else 'utf-8'
+            r = self.analyze_data(dataset_name, char_encoding=char_encoding)
             if r[0]:
                 r = self.s.post(url, headers=headers, json=parameters)
             else:
@@ -659,6 +662,17 @@ class DarwinSdk:
         if headers is None:
             return False, "Cannot get Auth token. Please log in."
         parameters = kwargs
+        r = self.s.post(url, headers=headers, json=parameters)
+        return self.get_return_info(r)
+
+    def evaluate_model(self, dataset_name, model_name):
+        # replace v1 with v2
+        assert self.server_url.endswith('/v1/')
+        url = self.server_url.replace('/v1/', '/v2/') + 'model/' + model_name + '/evaluate'
+        headers = self.get_auth_header()
+        if headers is None:
+            return False, "Cannot get Auth token. Please log in."
+        parameters = {'dataset_ids': [dataset_name]}
         r = self.s.post(url, headers=headers, json=parameters)
         return self.get_return_info(r)
 
@@ -788,3 +802,40 @@ class DarwinSdk:
             return True
         except ValueError:
             return False
+
+    def align_forecasting_predictions(self, model_name, true_values, predictions):
+        """
+        Align targets and predictions for a forecasting model. Useful for computing
+        performance metrics like MSE and R^2.
+
+        Inputs:
+            model_name: name of model
+            true_values: DataFrame of true values from Darwin dataset.
+            predictions: DataFrame of forecasting predictions from `run_model`.
+        Outputs:
+            trues: DataFrame of true values aligned to predictions
+            preds: DataFrame of rolling predictions, with same length as `trues`
+        """
+        status, model_info = self.lookup_model_name(model_name)
+        assert status, model_info
+
+        forecast_horizon = model_info['parameters']['forecast_horizon']
+        sequence_length = model_info['description']['best_genome'][0]['layer 1']['parameters']['seqlength']
+
+        # ensure that columns are in the correct order before flattening
+        ordered_columns = ['future_%i' % i for i in range(1, forecast_horizon + 1)]
+        predictions = predictions.loc[:, ordered_columns]
+
+        # trim off initial `sequence_length`
+        trues = true_values.iloc[sequence_length:]
+
+        # this takes every `forecast_horizon` row, then stacks them all vertically into one vector
+        preds = predictions.iloc[::forecast_horizon, :].values.reshape(-1)
+
+        # trim off the extra tail
+        preds = preds[:predictions.shape[0]]
+
+        # setting the datetime index for prediction dataframe
+        preds = pd.DataFrame(preds).set_index(trues.index)
+
+        return trues, preds
